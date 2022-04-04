@@ -5,6 +5,7 @@ public class PC {
     private Motherboard motherboard;
     private Monitor monitor;
 
+
     public PC(Case theCase, Motherboard motherboard, Monitor monitor) {
         this.theCase = theCase;
         this.motherboard = motherboard;
