@@ -1,5 +1,3 @@
-import javax.management.monitor.Monitor;
-
 public class PC {
     private Case theCase;
     private Motherboard motherboard;
