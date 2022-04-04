@@ -18,4 +18,16 @@ public class PC {
     private void drawLogo() {
         monitor.drawPixelAt(1700, 20, "green");
     }
+
+    public Case getTheCase() {
+        return theCase;
+    }
+
+    public Motherboard getMotherboard() {
+        return motherboard;
+    }
+
+    public Monitor getMonitor() {
+        return monitor;
+    }
 }
